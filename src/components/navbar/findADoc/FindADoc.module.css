@@ -1,0 +1,116 @@
+
+.doctorListContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .searchBar {
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .doctorCardsContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .doctorCard {
+    height: 350px; 
+    background-color: #f2f6ff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .doctorInfo {
+    flex-grow: 1; 
+  }
+  
+  .doctorName {
+    font-size: 20px;
+    color: #0078d4;
+    margin-bottom: 5px;
+    overflow: hidden; 
+    text-overflow: ellipsis; /* Show ellipsis for truncated text */
+    white-space: nowrap; 
+  }
+  
+  .doctorImage {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .doctorInfo {
+    text-align: center;
+  }
+  
+
+  
+  .doctorSpecialization {
+    color: #555;
+  }
+  
+
+
+  .doctorCardLink {
+    text-decoration: none;
+  }
+  
+.rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffd700; 
+  }
+  
+  .star {
+    font-size: 20px;
+    margin-right: 3px;
+  }
+  
+  /* Adjustments for responsive design */
+  @media (max-width: 768px) {
+    .doctorCardsContainer {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+      grid-gap: 10px;
+    }
+    
+    .doctorImage {
+      margin-bottom: 10px; 
+    }
+    .doctorCard {
+      height: auto; 
+      padding: 10px; 
+      text-align: left; 
+    }
+  
+    .doctorInfo {
+      flex-grow: unset; 
+    }
+  
+    .doctorName {
+      font-size: 18px; 
+      margin-bottom: 10px; 
+      overflow: hidden; 
+      text-overflow: ellipsis; 
+      white-space: nowrap; 
+    }
+  
+    .doctorSpecialization {
+      font-size: 14px; 
+      color: #555;
+    }
+  }

@@ -1,0 +1,132 @@
+/* DoctorProfile.module.css */
+
+.doctorProfileContainer {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f2f6ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.correction{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.doctorInfo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profilePicture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.doctorName {
+  font-size: 28px;
+  color: #0078d4;
+  margin-top: 5px;
+}
+
+.aboutDoctor {
+  text-align: left;
+  width: 200px;
+}
+
+.aboutDoctor h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.servicesSection,
+.availabilitySection {
+  /* margin-top: 20px; */
+}
+
+.servicesList,
+.availabilityDetails {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.servicesList li {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.availabilityDay {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.calendarIcon {
+  font-size: 24px;
+  color: #0078d4;
+}
+
+.bookAppointmentButton {
+  display: block;
+  width: 100%;
+  background-color: #36a2b7;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bookAppointmentButton:hover {
+  background-color: #005a9e;
+}
+
+
+@media (min-width: 768px) {
+  .correction {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .aboutDoctor {
+    width: auto; /* Reset width for larger screens */
+  }
+
+  .servicesSection {
+    width: auto; /* Reset width for larger screens */
+  }
+
+  .servicesList {
+    max-width: 200px; /* Adjust maximum width for services list */
+  }
+
+  .availabilitySection {
+    margin-top: 20px; /* Apply margin top for larger screens */
+  }
+}
+
+@media (max-width: 408px) {
+  .correction{
+    flex-direction: column;
+  }
+}

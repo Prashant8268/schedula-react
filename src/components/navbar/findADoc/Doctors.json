@@ -1,0 +1,177 @@
+
+[
+  {
+    "id": 1,
+    "name": "Dr. John Doe",
+    "specialization": "Cardiologist",
+    "profilePicture": "https://cdn-icons-png.flaticon.com/512/11500/11500575.png",
+    "rating": 3.5,
+    "experience": "15 years",
+    "achievements": ["Awarded Best Cardiologist 2020", "Published research papers in renowned journals"],
+    "services": ["Cardiac Consultation", "Echocardiography", "Stress Testing"],
+    "availability": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "9:00 AM - 1:00 PM",
+      "Thursday": "Not available",
+      "Friday": "9:00 AM - 5:00 PM"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Dr. Jane Smith",
+    "specialization": "Dermatologist",
+    "profilePicture": "https://cdn-icons-png.flaticon.com/512/11500/11500575.png",
+    "rating": 4,
+    "experience": "12 years",
+    "achievements": ["Expert in Cosmetic Dermatology", "Published articles on skincare in leading magazines"],
+    "services": ["Skin Allergy Consultation", "Acne Treatment", "Botox and Fillers"],
+    "availability": {
+      "Monday": "10:00 AM - 6:00 PM",
+      "Tuesday": "10:00 AM - 6:00 PM",
+      "Wednesday": "Not available",
+      "Thursday": "9:00 AM - 3:00 PM",
+      "Friday": "10:00 AM - 6:00 PM"
+    }
+  },
+
+  {
+    "id": 3,
+    "name": "Dr. Emily Johnson",
+    "specialization": "Pediatrician",
+    "profilePicture": "https://cdn-icons-png.flaticon.com/512/11500/11500575.png",
+    "rating": 4.5,
+    "experience": "18 years",
+    "achievements": ["Specialized in Child Development", "Published articles on pediatric care"],
+    "services": ["General Pediatrics", "Vaccinations", "Developmental Assessments"],
+    "availability": {
+      "Monday": "8:00 AM - 4:00 PM",
+      "Tuesday": "8:00 AM - 4:00 PM",
+      "Wednesday": "8:00 AM - 12:00 PM",
+      "Thursday": "Not available",
+      "Friday": "8:00 AM - 4:00 PM"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Dr. Michael Brown",
+    "specialization": "Orthopedic Surgeon",
+    "profilePicture": "https://cdn-icons-png.flaticon.com/512/11500/11500575.png",
+    "rating": 4.2,
+    "experience": "20 years",
+    "achievements": ["Performed over 100 successful surgeries", "Expert in joint replacements"],
+    "services": ["Orthopedic Consultation", "Surgical Procedures", "Fracture Management"],
+    "availability": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "Not available",
+      "Thursday": "9:00 AM - 3:00 PM",
+      "Friday": "9:00 AM - 5:00 PM"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Dr. Sarah Lee",
+    "specialization": "Neurologist",
+    "profilePicture": "https://cdn-icons-png.flaticon.com/512/11500/11500575.png",
+    "rating": 4.8,
+    "experience": "22 years",
+    "achievements": ["Pioneered new treatment methods for neurological disorders", "Awarded for contributions to neurology"],
+    "services": ["Neurological Consultation", "Brain Imaging", "Epilepsy Treatment"],
+    "availability": {
+      "Monday": "10:00 AM - 6:00 PM",
+      "Tuesday": "10:00 AM - 6:00 PM",
+      "Wednesday": "Not available",
+      "Thursday": "9:00 AM - 3:00 PM",
+      "Friday": "10:00 AM - 6:00 PM"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Dr. David Rodriguez",
+    "specialization": "Psychiatrist",
+    "profilePicture": "https://cdn-icons-png.flaticon.com/512/11500/11500575.png",
+    "rating": 3.9,
+    "experience": "16 years",
+    "achievements": ["Developed therapy programs for mental health", "Speaker at international psychiatry conferences"],
+    "services": ["Psychiatric Consultation", "Therapy Sessions", "Mood Disorder Treatment"],
+    "availability": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "Not available",
+      "Thursday": "9:00 AM - 3:00 PM",
+      "Friday": "9:00 AM - 5:00 PM"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Dr. Olivia Taylor",
+    "specialization": "Gynecologist",
+    "profilePicture": "https://cdn-icons-png.flaticon.com/512/11500/11500575.png",
+    "rating": 4.1,
+    "experience": "14 years",
+    "achievements": ["Specialized in high-risk pregnancies", "Promoted women's health initiatives"],
+    "services": ["Gynecological Consultation", "Prenatal Care", "Family Planning"],
+    "availability": {
+      "Monday": "10:00 AM - 6:00 PM",
+      "Tuesday": "10:00 AM - 6:00 PM",
+      "Wednesday": "Not available",
+      "Thursday": "9:00 AM - 3:00 PM",
+      "Friday": "10:00 AM - 6:00 PM"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Dr. William Clark",
+    "specialization": "Oncologist",
+    "profilePicture": "https://cdn-icons-png.flaticon.com/512/11500/11500575.png",
+    "rating": 4.6,
+    "experience": "19 years",
+    "achievements": ["Contributed to cancer research projects", "Recognized for compassionate patient care"],
+    "services": ["Oncology Consultation", "Chemotherapy", "Cancer Screening"],
+    "availability": {
+      "Monday": "9:00 AM - 5:00 PM",
+      "Tuesday": "9:00 AM - 5:00 PM",
+      "Wednesday": "Not available",
+      "Thursday": "9:00 AM - 3:00 PM",
+      "Friday": "9:00 AM - 5:00 PM"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Dr. Sophia Martinez",
+    "specialization": "Endocrinologist",
+    "profilePicture": "https://cdn-icons-png.flaticon.com/512/11500/11500575.png",
+    "rating": 3.7,
+    "experience": "13 years",
+    "achievements": ["Research in hormonal disorders", "Contributions to diabetes awareness campaigns"],
+    "services": ["Endocrinology Consultation", "Hormone Therapy", "Diabetes Management"],
+    "availability": {
+      "Monday": "8:00 AM - 4:00 PM",
+      "Tuesday": "8:00 AM - 4:00 PM",
+      "Wednesday": "8:00 AM - 12:00 PM",
+      "Thursday": "Not available",
+      "Friday": "8:00 AM - 4:00 PM"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Dr. Ethan Turner",
+    "specialization": "Urologist",
+    "profilePicture": "https://cdn-icons-png.flaticon.com/512/11500/11500575.png",
+    "rating": 4.3,
+    "experience": "17 years",
+    "achievements": ["Expert in urological surgeries", "Contributed to research on urinary tract infections"],
+    "services": ["Urology Consultation", "Kidney Stone Treatment", "Prostate Health"],
+    "availability": {
+      "Monday": "10:00 AM - 6:00 PM",
+      "Tuesday": "10:00 AM - 6:00 PM",
+      "Wednesday": "Not available",
+      "Thursday": "9:00 AM - 3:00 PM",
+      "Friday": "10:00 AM - 6:00 PM"
+    }
+  }
+]
+  
+  
+  
