@@ -1,0 +1,128 @@
+/* AppointmentDetail.module.css */
+
+.appointmentDetailContainer {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f6ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Example styles for buttons */
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .Link{
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cancelButton,
+  .rescheduleButton,
+  .waitingButton,
+  .consultedButton,
+  .unableButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cancelButton:hover,
+  .rescheduleButton:hover,
+  .waitingButton:hover,
+  .consultedButton:hover,
+  .unableButton:hover {
+    background-color: #36a2b7;
+  }
+  
+  .paymentButton {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #36a2b7;
+    color: #fff;
+  }
+  
+  .paymentButton:hover {
+    background-color: #005a9e;
+  }
+  
+
+/* New styles for doctor's image */
+.doctorImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cancelAppointmentButton {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #ff3d3d;
+  color: #fff;
+}
+
+.cancelAppointmentButton:hover {
+  background-color: #e60000;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .appointmentDetailContainer {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .doctorImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Adjust button styles for mobile */
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .cancelButton,
+  .rescheduleButton,
+  .waitingButton,
+  .consultedButton,
+  .unableButton {
+    width: 100%;
+  }
+
+  .paymentButton {
+    width: 100%;
+    margin: 10px auto;
+  }
+}

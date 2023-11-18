@@ -20,7 +20,7 @@ const HomePage = () => {
                 <div className={styles['cta-buttons']}> 
                     <Link to="/signin" className={styles['cta-button']}>Sign In</Link> 
                     <Link to="/signup" className={styles['cta-button']}>Sign Up</Link> 
-                    <Link to="/book-now/"   className={styles['cta-button']}>Book Now</Link> 
+                    <Link to="/book-now/find-doc"   className={styles['cta-button']}>Book Now</Link> 
                 </div>
             </div>
         </div>

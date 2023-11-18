@@ -1,0 +1,69 @@
+/* MyAppointments.module.css */
+
+.appointmentContainer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f6ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navBar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .navButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #36a2b7;
+    color: #fff;
+  }
+  
+  .navButton:hover {
+    background-color: #005a9e;
+  }
+  
+  .appointmentList {
+    text-align: left;
+  }
+  
+  .appointment {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .navButton.active {
+    background-color: #005a9e;
+  }
+  .viewButton {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #36a2b7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .viewButton:hover {
+    background-color: #005a9e;
+  }
+
+
+  

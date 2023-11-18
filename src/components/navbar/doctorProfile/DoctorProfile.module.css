@@ -54,7 +54,18 @@
 
 .servicesSection,
 .availabilitySection {
-  /* margin-top: 20px; */
+  color: #555;
+
+}
+
+.availabilityDetails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.availabilityDetails > div {
+  width: calc(50% - 15px); 
 }
 
 .servicesList,
