@@ -12,7 +12,7 @@ const Navbar = () => {
                 <NavLink exact={false}  to="/book-now/find-doc" style={({ isActive }) => (isActive ? { backgroundColor: '#005a9e'} :null)}>
                     Find a Doc
                 </NavLink>
-                <NavLink exact  to="/myrecord" style={({ isActive }) => (isActive ? { backgroundColor: '#005a9e'} :null)}>
+                <NavLink exact  to="/book-now/my-records" style={({ isActive }) => (isActive ? { backgroundColor: '#005a9e'} :null)}>
                     My Record
                 </NavLink>
                 <NavLink exact to="/book-now/my-appointments" style={({ isActive }) => (isActive ? { backgroundColor: '#005a9e'} :null)}>

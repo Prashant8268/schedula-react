@@ -1,0 +1,61 @@
+
+
+.myRecordContainer {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7; 
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+.bookingRecord {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff; 
+}
+
+.bookingRecord h3 {
+  margin: 0;
+  color: #333; 
+}
+
+.bookingRecord p {
+  margin: 5px 0;
+  color: #666; 
+}
+.deleteButton {
+  cursor: pointer;
+  font-size: 24px;
+  transition: transform 0.2s ease-in-out;
+  background-color: transparent;
+  border: 0;
+  color: #FF5252; 
+}
+
+.deleteButton:hover {
+  transform: scale(1.2); 
+}
+
+/* Adjust styles for mobile */
+@media screen and (max-width: 768px) {
+  .bookingRecord {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bookingRecord > div {
+    margin-bottom: 8px;
+  }
+}

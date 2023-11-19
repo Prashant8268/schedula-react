@@ -120,19 +120,19 @@
   }
 
   .aboutDoctor {
-    width: auto; /* Reset width for larger screens */
+    width: auto; 
   }
 
   .servicesSection {
-    width: auto; /* Reset width for larger screens */
+    width: auto; 
   }
 
   .servicesList {
-    max-width: 200px; /* Adjust maximum width for services list */
+    max-width: 200px; 
   }
 
   .availabilitySection {
-    margin-top: 20px; /* Apply margin top for larger screens */
+    margin-top: 20px; 
   }
 }
 

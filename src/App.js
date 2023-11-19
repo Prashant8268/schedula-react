@@ -11,6 +11,7 @@ import DoctorProfile from './components/navbar/doctorProfile/DoctorProfile';
 import Appointment from './components/navbar/myAppointments/MyAppointments';
 import AppointmentDetail from './components/navbar/appointmentDetail/AppointmentDetail';
 import CancelAppointment from './components/navbar/cancelAppointment/CancelAppointment';
+import MyRecords from './components/navbar/myRecords/MyRecords';
 
 function App() {
 
@@ -50,6 +51,13 @@ function App() {
             path:'cancel-appointment/:id' , element : <CancelAppointment />
           }
 
+        ]
+      },
+      {
+        path:'my-records', children:[
+        {
+          path:'', element: <MyRecords />
+        }
         ]
       }
     ]
