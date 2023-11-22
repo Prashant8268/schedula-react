@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './MyProfile.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSignOutAlt, faUserEdit } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Profile = () => {
   const [isEditing, setIsEditing] = useState(false);
@@ -68,10 +69,12 @@ const Profile = () => {
           )}
         </div>
       </div>
-      <button className={styles['signOutButton']}>
-        <FontAwesomeIcon icon={faSignOutAlt} />
-        Sign Out
-      </button>
+      <Link to={'/'}>
+        <button className={styles['signOutButton']}>
+          <FontAwesomeIcon icon={faSignOutAlt} />
+          Sign Out
+        </button>
+      </Link>
     </div>
   );
 };

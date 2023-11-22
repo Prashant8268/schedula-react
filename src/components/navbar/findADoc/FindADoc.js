@@ -8,7 +8,7 @@ import doctorsData from './Doctors.json'
 
 const DoctorList = (props) => {
   const [searchQuery, setSearchQuery] = useState('');
-  console.log(props, 'props');
+
   const handleSearch = (e) => {
     setSearchQuery(e.target.value);
 
