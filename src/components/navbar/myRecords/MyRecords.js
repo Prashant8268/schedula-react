@@ -1,12 +1,11 @@
 // MyRecords.js
 
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './MyRecords.module.css';
 import { IoMdTrash } from 'react-icons/io';
 
 const MyRecords = () => {
-  // Dummy data for booking records
-  const bookingRecords = [
+  const [bookingRecords, setBookingRecords] = useState([
     {
       id: 1,
       doctor: 'Dr. Smith',
@@ -23,22 +22,26 @@ const MyRecords = () => {
       time: '02:30 PM',
       status: 'Pending',
     },
-    // Add more booking records as needed
-  ];
+    {
+      id: 3,
+      doctor: 'Dr. Brown',
+      specialty: 'Neurologist',
+      date: '2023-11-25',
+      time: '09:00 AM',
+      status: 'Confirmed',
+    },
+  ]);
 
-  // Function to handle record deletion
   const handleDelete = (id) => {
-    // Implement logic to delete the record with the given id
-    // For example:
-    // const updatedRecords = bookingRecords.filter(record => record.id !== id);
-    // Update state or perform other actions with updatedRecords
+    const updatedRecords = bookingRecords.filter((record) => record.id !== id);
+    setBookingRecords(updatedRecords);
   };
 
   return (
-    <div className={styles["myRecordContainer"]}>
+    <div className={styles['myRecordContainer']}>
       <h2>My Booking Records</h2>
       {bookingRecords.map((record) => (
-        <div key={record.id} className={styles["bookingRecord"]}>
+        <div key={record.id} className={styles['bookingRecord']}>
           <div>
             <h3>{record.doctor}</h3>
             <p>{record.specialty}</p>
@@ -47,7 +50,7 @@ const MyRecords = () => {
             <p>Date: {record.date}</p>
             <p>Time: {record.time}</p>
             <p>Status: {record.status}</p>
-            <button className={styles["deleteButton"]} onClick={() => handleDelete(record.id)}>
+            <button className={styles['deleteButton']} onClick={() => handleDelete(record.id)}>
               <IoMdTrash /> {/* Render delete icon */}
             </button>
           </div>
